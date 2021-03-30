@@ -13,5 +13,8 @@
     "eslint": "^7.23.0",
     "eslint-config-prettier": "^8.1.0",
     "prettier": "^2.2.1"
+  },
+  "engines": {
+    "honkit": ">=3.0.0"
   }
 }
