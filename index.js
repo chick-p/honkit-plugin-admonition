@@ -14,7 +14,7 @@ module.exports = {
         return `
           <div class="plugin-admonition plugin-admonition--${type}">
             <div class="plugin-admonition-title plugin-admonition-title--${type}">
-              <i class="${iconClassName}"></i>
+              <i class="${iconClassName || ""}"></i>
             </div>
             <div class="plugin-admonition-content plugin-admonition-content--${type}">
               ${html}
