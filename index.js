@@ -8,13 +8,13 @@ module.exports = {
       process: async function (block) {
         const {
           body,
-          kwargs: { type, className },
+          kwargs: { type, iconClassName },
         } = block;
         const html = await this.renderBlock("markdown", body);
         return `
           <div class="plugin-admonition plugin-admonition--${type}">
             <div class="plugin-admonition-title plugin-admonition-title--${type}">
-              <i class="${className}"></i>
+              <i class="${iconClassName}"></i>
             </div>
             <div class="plugin-admonition-content plugin-admonition-content--${type}">
               ${html}
