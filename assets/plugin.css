@@ -8,3 +8,7 @@
 .plugin-admonition-title {
   margin-bottom: 4px;
 }
+
+.plugin-admonition-subtitle {
+  font-weight: 800;
+}
