@@ -8,7 +8,7 @@ module.exports = {
       process: async function (block) {
         const {
           body,
-          kwargs: { type, iconClassName },
+          kwargs: { type, iconClassName, subtitle },
         } = block;
         const html = await this.renderBlock("markdown", body);
         return `
@@ -17,6 +17,11 @@ module.exports = {
               <i class="${iconClassName || ""}"></i>
             </div>
             <div class="plugin-admonition-content plugin-admonition-content--${type}">
+              ${
+                subtitle
+                  ? `<div class="plugin-admonition-subtitle">${subtitle}</div>`
+                  : ""
+              }
               ${html}
             </div>
           </div>
