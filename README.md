@@ -25,7 +25,7 @@ Add to your `book.json` plugin list:
 For example:
 
 ```markdown
-{% admonition type="notes", iconClassName="fa fa-book" %}
+{% admonition type="notes", iconClassName="fa fa-book" subtitle="This is subtitle" %}
 This is a **pen**.
 {% endadmonition %}
 ```
@@ -40,6 +40,7 @@ Your book is exported as follows:
     <i class="fa fa-book"></i>
   </div>
   <div class="plugin-admonition-content plugin-admonition-content--notes">
+    <div class="plugin-admonition-subtitle">This is subtitle</div>
     <p>This is a <strong>pen</strong>.</p>
   </div>
 </div>
