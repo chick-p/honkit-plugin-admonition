@@ -7,7 +7,7 @@ This Honkit plugin can insert admonition block.
 Install this plugin.
 
 ```shell
-$ npm install -D https://github.com/chick-p/honkit-plugin-admonition.git
+$ npm install -D chick-p/honkit-plugin-another-url#v0
 ```
 
 Add to your `book.json` plugin list:
