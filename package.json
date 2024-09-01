@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "run-s lint:*",
     "lint:prettier": "prettier --check .",
-    "lint:eslint": "eslint --ext .js",
+    "lint:eslint": "eslint \"*.js\"",
     "fix": "run-s fix:*",
     "fix:prettier": "prettier -w .",
     "fix:eslint": "npm run lint:eslint --fix"
@@ -15,7 +15,7 @@
   "author": "",
   "license": "Apache-2.0 License",
   "devDependencies": {
-    "eslint": "^8.57.0",
+    "eslint": "^9.9.1",
     "eslint-config-prettier": "^9.1.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^3.3.3"
