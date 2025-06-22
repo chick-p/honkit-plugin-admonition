@@ -25,7 +25,7 @@ Add to your `book.json` plugin list:
 For example:
 
 ```markdown
-{% admonition type="notes", iconClassName="fa fa-book" subtitle="This is subtitle" %}
+{% admonition type="notes", iconClassName="fa fa-book", subtitle="This is subtitle" %}
 This is a **pen**.
 {% endadmonition %}
 ```
