@@ -9,7 +9,8 @@
     "lint:eslint": "eslint \"*.js\"",
     "fix": "run-s fix:*",
     "fix:prettier": "prettier -w .",
-    "fix:eslint": "npm run lint:eslint --fix"
+    "fix:eslint": "npm run lint:eslint --fix",
+    "test": "vitest run"
   },
   "keywords": [],
   "author": "",
