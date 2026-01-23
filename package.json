@@ -24,6 +24,9 @@
     "prettier": "^3.8.1",
     "vitest": "^4.0.18"
   },
+  "overrides": {
+    "send": "0.19.0"
+  },
   "engines": {
     "honkit": ">=3.0.0"
   }
