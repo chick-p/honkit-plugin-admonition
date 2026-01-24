@@ -1,6 +1,6 @@
 {
   "name": "honkit-plugin-admonition",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Add an admonition block to your Honkit",
   "main": "index.js",
   "scripts": {
